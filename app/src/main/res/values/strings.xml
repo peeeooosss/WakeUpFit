@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">WakeUpFit</string>
+
+
+    <!-- Other string resources -->
+    <string-array name="goals">
+        <item>Weight loss</item>
+        <item>Weight gain</item>
+        <item>Muscle gain</item>
+    </string-array>
+
+    <string name="muscle_gain_description">Muscle gain, also known as hypertrophy, refers to the process 
+        of increasing muscle size and strength through resistance training and proper nutrition.</string>
+    <string name="weight_gain_description">Weight loss is the process of reducing body mass,
+                usually through a combination of diet, exercise, and lifestyle changes.</string>
+    <string name="weight_loss_description">Weight gain is the process of increasing body mass,
+        usually through a combination of strength training, calorie surplus, and proper nutrition.</string>
+
+    <string name="muscle_gain_diet_plan">Muscle Gain Diet Plan\n\n
+Meal 1 (Breakfast):\n
+-Scrambled eggs (3 whole eggs + 2 egg whites)\n
+-Oatmeal (1 cup cooked) with berries (1/2 cup) and a drizzle of honey\n
+-Greek yogurt (1 cup) with sliced almonds (1/4 cup)\n\n
+
+Meal 2: Mid-Morning Snack\n
+-Protein shake: 1 scoop (whey or plant-based)\n
+-Apple: 1\n\n
+
+Meal 3: Lunch\n
+-Grilled chicken breast: 6 oz\n
+-Brown rice: 1 cup cooked\n
+-Steamed vegetables (broccoli, carrots, etc.): 1 cup\n
+-Olive oil: 1 tablespoon (for cooking)\n\n
+
+Meal 4: Afternoon Snack\n
+-Cottage cheese: 1 cup\n
+-Whole grain crackers: 5-6\n\n
+
+Meal 5: Pre-Workout\n
+-Whole grain bread: 2 slices\n
+-Turkey slices: 3-4\n
+-Avocado: 1/2 sliced\n\n
+
+Meal 6: Post-Workout\n
+-Protein shake: 1 scoop (whey or plant-based)\n
+-Banana: 1\n
+-Honey: 1 tablespoon\n\n
+
+Meal 7: Dinner\n
+-Salmon: 6 oz\n
+-Quinoa: 1 cup cooked\n
+-Green salad (lettuce, spinach, tomatoes, cucumber): 1-2 cups\n
+-Olive oil and vinegar dressing: 2 tablespoons\n\n
+
+Before Bed Snack (optional)\n
+-Casein protein shake: 1 scoop\n
+-Mixed berries: 1/2 cup\n\n
+
+Hydration\n
+-Drink at least 3 liters of water throughout the day.\n
+-You can also include unsweetened green tea or herbal teas for variety.</string>
+
+    <string name="weight_loss_diet_plan">Weight Loss Diet Plan\n\n
+Breakfast:\n
+Option 1: Oatmeal topped with fresh berries and a teaspoon of honey.\n
+Option 2: Whole-grain toast with avocado and poached eggs.\n
+Option 3: Greek yogurt with sliced fruits and a handful of almonds.\n\n
+
+Mid-Morning Snack:\n
+Option 1: Apple slices with a tablespoon of almond butter.\n
+Option 2: A small handful of mixed nuts (almonds, walnuts, and cashews).\n
+Option 3: Carrot sticks with hummus.\n\n
+
+Lunch:\n
+Option 1: Grilled chicken salad with mixed greens, cherry tomatoes, cucumber, and a light vinaigrette dressing.\n
+Option 2: Quinoa and vegetable stir-fry with tofu or lean meat.\n
+Option 3: Whole-grain wrap with turkey, lettuce, tomato, and mustard.\n\n
+
+Afternoon Snack:\n
+Option 1: A small bowl of berries.\n
+Option 2: Rice cakes with cottage cheese.\n
+Option 3: Celery sticks with peanut butter.\n\n
+
+Dinner:\n
+Option 1: Baked salmon with roasted vegetables (broccoli, cauliflower, and carrots).\n
+Option 2: Stir-fried vegetables with lean beef or tofu, served with brown rice.\n
+Option 3: Grilled chicken with sweet potato and steamed asparagus.\n\n
+
+Evening Snack (if needed):\n
+Option 1: A small piece of dark chocolate.\n
+Option 2: A cup of herbal tea.\n
+Option 3: A handful of cherry tomatoes.\n\n
+
+Extra Tips for Weight Loss:\n
+- Stay hydrated: Drink at least 8-10 glasses of water daily.\n
+- Portion control: Be mindful of portion sizes to avoid overeating.\n
+- Limit processed foods: Opt for whole, nutrient-dense foods.\n
+- Be active: Incorporate regular physical activity into your routine.\n
+- Get enough sleep: Aim for 7-9 hours of quality sleep each night.\n</string>
+
+    <string name="weight_gain_diet_plan">Weight Gain Diet Plan\n\n
+Breakfast:\n
+Whole-grain toast with peanut butter\n
+Greek yogurt with honey and mixed berries\n
+Banana\n
+Glass of whole milk\n\n
+
+Mid-Morning Snack:\n
+Handful of mixed nuts (almonds, walnuts, cashews)\n
+Fruit smoothie with yogurt, banana, and a handful of oats\n\n
+
+Lunch:\n
+Grilled chicken breast or tofu\n
+Quinoa or brown rice\n
+Steamed vegetables (broccoli, carrots, bell peppers)\n
+Salad with avocado, olive oil, and seeds (chia, sunflower, pumpkin)\n\n
+
+Afternoon Snack:\n
+Whole-grain crackers with hummus\n
+Fresh fruit (apple, pear, or orange)\n\n
+
+Dinner:\n
+Salmon or lean beef steak\n
+Sweet potato or mashed potatoes\n
+Green beans or asparagus\n
+Whole-grain dinner roll\n
+Salad with olive oil dressing\n\n
+
+Evening Snack (optional):\n
+Cottage cheese with pineapple or peaches\n
+Whole-grain toast with almond butter\n\n
+
+Before Bed:\n
+Glass of whole milk or a protein shake\n\n
+
+Tips:\n
+- Caloric Surplus: Make sure you are eating more calories than you burn. Calculate your Total Daily Energy Expenditure (TDEE) and add 300-500 calories to that number.\n
+- Protein Intake: Aim for at least 1.2 to 1.6 grams of protein per kilogram of body weight daily to help build muscle.\n
+- Healthy Fats: Incorporate healthy fats from sources like avocados, nuts, seeds, and olive oil.\n
+- Frequent Meals: Eat 5-6 smaller meals throughout the day to increase calorie intake without feeling too full.\n
+- Hydration: Drink plenty of water throughout the day to stay hydrated.\n</string>
+
+
+</resources>

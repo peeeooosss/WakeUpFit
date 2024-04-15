@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/userbg">
+
+    <include
+        android:id="@+id/toolbar_layout_update"
+        layout="@layout/toolbar_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Programs"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/roundbox"
+        android:paddingLeft="10dp"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="137dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/editTextHeight"
+        android:layout_below="@+id/toolbar_layout_update"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="89dp"
+        android:fontFamily="@font/calistoga"
+        android:gravity="center"
+        android:text="Modify"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextWeight"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="265dp"
+        android:hint="Enter height (in centimeters)"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="395dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/textViewFeedback"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="205dp"
+        android:hint="Enter weight (in kg)"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewFeedback"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="67dp"
+        android:backgroundTint="@color/white"
+        android:padding="16dp"
+        android:text="Update"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="65dp"
+        android:fontFamily="@font/calistoga"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

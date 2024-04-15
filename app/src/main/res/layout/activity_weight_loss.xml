@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad2"
+    tools:context=".Goals.WeightLossActivity">
+    <include
+        android:id="@+id/toolbar_layout"
+        layout="@layout/toolbar_layout" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="106dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Programs"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/roundbox"
+        app:srcCompat="@drawable/baseline_person_24" />
+
+    <TextView
+        android:id="@+id/weightLossDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_layout"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Weight Loss Description"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weightLossDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_below="@id/weightLossDescriptionTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="@string/weight_gain_description"
+        android:textColor="@color/yellow"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/dietPlanButton"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weightLossDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="74dp"
+        android:text="Diet Plan" />
+
+    <Button
+        android:id="@+id/exercisesButton"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dietPlanButton"
+        android:layout_alignStart="@+id/dietPlanButton"
+        android:layout_alignEnd="@+id/dietPlanButton"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="-2dp"
+        android:backgroundTint="@color/black"
+        android:text="Exercises" />
+
+
+</RelativeLayout>

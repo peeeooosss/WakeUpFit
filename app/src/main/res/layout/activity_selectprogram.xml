@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Goals.selectprogram"
+    android:background="@drawable/userbg">
+
+
+    <TextView
+        android:id="@+id/MuscleGain"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_alignEnd="@+id/imageView10"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="-23dp"
+        android:fontFamily="@font/calistoga"
+        android:text="Muscle Gain"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/weightloss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_alignEnd="@+id/imageView11"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="-3dp"
+        android:fontFamily="@font/calistoga"
+        android:text="Weight Loss"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/weightgain"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView11"
+        android:layout_alignStart="@+id/imageView12"
+        android:layout_alignEnd="@+id/imageView12"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="-13dp"
+        android:fontFamily="@font/calistoga"
+        android:text="Weight Gain"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="149dp"
+        android:layout_height="138dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="130dp"
+        app:srcCompat="@drawable/musclegain" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="144dp"
+        android:layout_height="156dp"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_alignEnd="@+id/imageView10"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="1dp"
+        app:srcCompat="@drawable/weightloss" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="145dp"
+        android:layout_height="149dp"
+        android:layout_below="@+id/imageView11"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_alignEnd="@+id/imageView11"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="90dp"
+        app:srcCompat="@drawable/weightgai" />
+</RelativeLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "77928105029",
+    "firebase_url": "https://wakeupfit-cbfb7-default-rtdb.firebaseio.com",
+    "project_id": "wakeupfit-cbfb7",
+    "storage_bucket": "wakeupfit-cbfb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77928105029:android:f186e62b89928cb5e64f2c",
+        "android_client_info": {
+          "package_name": "com.example.wakeupfit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNYHJY092JfHQF5RngrBPiLCxXIA9ZSHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

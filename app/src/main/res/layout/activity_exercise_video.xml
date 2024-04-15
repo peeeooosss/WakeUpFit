@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/blue"
+        android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <VideoView
+                android:id="@+id/videoViewExercise"
+                android:layout_width="169dp"
+                android:layout_height="169dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="40dp"
+                android:text="EXERCISE NO.1\n \nLAT PULL DOWN"
+                android:fontFamily="@font/bevan"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <VideoView
+                android:id="@+id/videoViewExercise2"
+                android:layout_width="169dp"
+                android:layout_height="169dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="40dp"
+                android:text="EXERCISE NO.2\n \nBARBEL CURL"
+                android:fontFamily="@font/bevan"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <VideoView
+                android:id="@+id/videoViewExercise3"
+                android:layout_width="169dp"
+                android:layout_height="169dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="40dp"
+                android:text="EXERCISE NO.3\n \n LEG PRESS"
+                android:fontFamily="@font/bevan"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <VideoView
+                android:id="@+id/videoViewExercise4"
+                android:layout_width="169dp"
+                android:layout_height="169dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="40dp"
+                android:text="EXERCISE NO.4\n \nROMAINAN \n DEADLIFT"
+                android:fontFamily="@font/bevan"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <VideoView
+                android:id="@+id/videoViewExercise5"
+                android:layout_width="169dp"
+                android:layout_height="169dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="40dp"
+                android:text="EXERCISE NO.5\n \n DIPS"
+                android:fontFamily="@font/bevan"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <VideoView
+                android:id="@+id/videoViewExercise6"
+                android:layout_width="169dp"
+                android:layout_height="169dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="40dp"
+                android:text="EXERCISE NO.6\n \n DUMBELL PRESS"
+                android:fontFamily="@font/bevan"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <VideoView
+                android:id="@+id/videoViewExercise7"
+                android:layout_width="169dp"
+                android:layout_height="169dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="40dp"
+                android:text="EXERCISE NO.7\n \nOVERHEAD PRESS"
+                android:fontFamily="@font/bevan"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+    
+    
+    </LinearLayout>
+</ScrollView>

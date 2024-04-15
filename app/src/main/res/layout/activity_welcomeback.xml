@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcomeback"
+    android:background="@drawable/userbg">
+
+    <TextView
+        android:id="@+id/welcomeback"
+        android:layout_width="231dp"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="62dp"
+        android:fontFamily="@font/calistoga"
+        android:gravity="center"
+        android:padding="8dp"
+        android:paddingLeft="15dp"
+        android:text="Welcome Back"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttoncontinue"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_below="@id/welcomeback"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="113dp"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/calistoga"
+        android:text="Continue ->" />
+</RelativeLayout>

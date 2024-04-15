@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WakeUpFit"
+        tools:targetApi="31">
+        <activity
+            android:name=".DietAndExercises.ExercisesMuscleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DietAndExercises.ExercisesWeightLossActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DietAndExercises.DietPlanWeightLossActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DietAndExercises.ExercisesWeightGainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DietAndExercises.DietPlanWeightGainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DietAndExercises.DietPlanMuscleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Goals.selectprogram"
+            android:exported="false" />
+        <activity
+            android:name=".updateBMI"
+            android:exported="false" />
+        <activity
+            android:name=".welcomeback"
+            android:exported="false" />
+        <activity
+            android:name=".user.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Goals.MuscleGainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Goals.WeightGainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Goals.WeightLossActivity"
+            android:exported="false" />
+        <activity
+            android:name=".forgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".homepage"
+            android:exported="false" />
+        <activity
+            android:name=".user.registration"
+            android:exported="false" />
+        <activity
+            android:name=".user.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".splashscreenok"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

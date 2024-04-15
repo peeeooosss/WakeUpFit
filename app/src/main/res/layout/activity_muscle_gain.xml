@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad2"
+    tools:context=".Goals.MuscleGainActivity">
+    <include
+        android:id="@+id/toolbar_layout"
+        layout="@layout/toolbar_layout" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="106dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Programs"
+        android:textColor="@color/white"
+        android:textSize="16sp"  />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/roundbox"
+        app:srcCompat="@drawable/baseline_person_24" />
+
+    <TextView
+        android:id="@+id/muscleGainDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_layout"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Muscle Gain Description"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/muscleGainDescription"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/muscleGainDescriptionTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="@string/muscle_gain_description"
+        android:textColor="@color/yellow"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/dietPlanButton"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/muscleGainDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginEnd="45dp"
+        android:text="Diet Plan" />
+
+    <Button
+        android:id="@+id/exercisesButton"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dietPlanButton"
+        android:layout_alignStart="@+id/dietPlanButton"
+        android:layout_alignEnd="@+id/dietPlanButton"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginEnd="-3dp"
+        android:text="Exercises" />
+    />
+</RelativeLayout>
