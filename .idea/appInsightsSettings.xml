@@ -9,10 +9,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.example.wakeupfit" />
-                  <option name="mobileSdkAppId" value="1:77928105029:android:f186e62b89928cb5e64f2c" />
-                  <option name="projectId" value="wakeupfit-cbfb7" />
-                  <option name="projectNumber" value="77928105029" />
+                  <option name="appId" value="PLACEHOLDER" />
+                  <option name="mobileSdkAppId" value="" />
+                  <option name="projectId" value="" />
+                  <option name="projectNumber" value="" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

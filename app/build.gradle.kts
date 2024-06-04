@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.wakeupfit"
-        minSdk = 21
+        minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -36,10 +36,13 @@ dependencies {
 
     implementation(libs.appcompat)
     implementation(libs.material)
+    implementation("com.google.firebase:firebase-analytics")
+    implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.firebase.database)
     implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
