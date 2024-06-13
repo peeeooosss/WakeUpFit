@@ -36,6 +36,7 @@ dependencies {
 
     implementation(libs.appcompat)
     implementation(libs.material)
+    implementation ("org.jetbrains.kotlin:kotlin-stdlib:kotlin_version")
     implementation("com.google.firebase:firebase-analytics")
     implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
     implementation(libs.activity)

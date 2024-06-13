@@ -13,17 +13,17 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="85dp"
+        android:layout_width="96dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="238dp"
+        android:layout_marginStart="227dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="88dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Programs"
         android:gravity="center"
+        android:text="Programs"
         android:textColor="@color/white"
         android:textSize="16sp" />
 

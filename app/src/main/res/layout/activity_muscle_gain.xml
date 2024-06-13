@@ -7,23 +7,24 @@
     android:layout_height="match_parent"
     android:background="@drawable/grad2"
     tools:context=".Goals.MuscleGainActivity">
+
     <include
         android:id="@+id/toolbar_layout"
         layout="@layout/toolbar_layout" />
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="88dp"
+        android:layout_width="103dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="219dp"
+        android:layout_marginStart="211dp"
         android:layout_marginTop="22dp"
-        android:layout_marginEnd="104dp"
+        android:layout_marginEnd="97dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Programs"
         android:gravity="center"
+        android:text="Programs"
         android:textColor="@color/white"
         android:textSize="16sp" />
 
